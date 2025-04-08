@@ -323,7 +323,7 @@ async experienceOn(skuNumber, fatherContainer){
 const mudiExperience = new MudiExperience();
 
 setTimeout(() => {
-    const skuElement = 42145021;
+    const skuElement = '42145021';
 
     if (skuElement.trim()) {
         const sku = skuElement.trim(); 
