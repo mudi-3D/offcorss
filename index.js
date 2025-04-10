@@ -322,19 +322,4 @@ async experienceOn(skuNumber, fatherContainer){
 };
 const mudiExperience = new MudiExperience();
 
-setTimeout(() => {
-    const skuElement = '42145021';
 
-    if (skuElement.trim()) {
-        const sku = skuElement.trim(); 
-        const container = document.querySelector('div.vtex-store-components-3-x-carouselContainer');
-
-        if (sku && container) {
-            mudiExperience.experienceOn(sku, container);
-        } else {
-            console.error('Error: No se pudo encontrar el SKU o el contenedor.');
-        }
-    } else {
-        console.error('Error: No se pudo encontrar el elemento SKU.');
-    }
-}, 1500);
